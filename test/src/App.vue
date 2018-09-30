@@ -2,12 +2,12 @@
   <div id="app">
     <div>
     <h1>Index</h1>
-    <input type="text" v-model="loginInfo.message" placeholder="please enter url" />
+    <input type="text" v-model="loginInfo.message" placeholder="Please Enter The Url" />
     <button @click="submit">Submit</button><br/>
     <section>
       <h3>Request Result</h3>
       <p>
-        <textarea cols="30" rows="5" v-model="responseResult"></textarea>
+        <textarea cols="70" rows="7" v-model="responseResult"></textarea>
         <button @click="send">Send</button>
       </p>
     </section>
